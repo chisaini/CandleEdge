@@ -1,6 +1,6 @@
 import React from 'react';
-function Singup() {
-    return ( <></> );
+function Signup() {
+    return ( <><h1>signup</h1></> );
 }
 
-export default Singup;
+export default Signup;
