@@ -1,6 +1,10 @@
 import React from "react";
 function Menu() {
-  return <h1>Menu</h1>;
+  return (
+    <div className="container">
+      
+    </div>
+  );
 }
 
 export default Menu;

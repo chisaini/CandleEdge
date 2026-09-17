@@ -1,0 +1,48 @@
+/* Main top bar */
+.Topbar-container {
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+/* NIFTY and SENSEX section */
+.indices-container {
+    width: 490px;
+    height:80px;
+    border-right: 1px solid rgb(217, 216, 216);
+    display: flex;
+    
+    align-items: center;
+}
+
+.nifty,
+.sensex {
+    font-size: small;
+    font-weight:600;
+    margin: auto;
+   display: flex;
+   align-items: center;
+
+}
+
+/* Index names */
+.index {
+   margin: 0;
+   color: #424242;
+  
+}
+
+/* Index values */
+.index-points {
+   margin: 0;
+   color: #ff3b30;
+
+}
+
+/* Percentage text */
+.percent {
+   margin: 0;
+   color: #ff3b30;
+
+}
