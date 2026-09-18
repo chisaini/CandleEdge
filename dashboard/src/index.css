@@ -1,7 +1,8 @@
 /* Main top bar */
 .Topbar-container {
+   display: flex;
     height: 80px;
-    background-color: #fff;
+    width: 100%;
     border-bottom: 1px solid #e5e5e5;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
 }
@@ -10,19 +11,17 @@
 .indices-container {
     width: 490px;
     height:80px;
-    border-right: 1px solid rgb(217, 216, 216);
+    border-right: 1px solid #EFEEEA;
     display: flex;
     
-    align-items: center;
 }
 
 .nifty,
 .sensex {
-    font-size: small;
-    font-weight:600;
+    font-size: medium;
+    font-weight:500;
     margin: auto;
    display: flex;
-   align-items: center;
 
 }
 
@@ -36,13 +35,34 @@
 /* Index values */
 .index-points {
    margin: 0;
-   color: #ff3b30;
+   color: #FE7743;
 
 }
 
 /* Percentage text */
 .percent {
    margin: 0;
-   color: #ff3b30;
+   color: #FE7743;
 
+}
+
+.menu-container{
+   display: flex;
+   align-items:center;
+   
+}
+.menu-items{
+   display: flex;
+   margin-left: 340px;
+   height: 40px;
+   border-right: 2px solid #EFEEEA;
+   font-size: 15px;
+   
+}
+.menu-items p{
+   margin-top: 9px;
+   margin-right: 30px;
+}
+.menu-user-profile{
+   width: 130px;
 }
