@@ -68,7 +68,9 @@
 .menu.selected {
   color:#FE7743 ;
 }
-
+.menu-items .menu:hover {
+  color: #FE7743;
+}
 .menu-user-profile{
    width: 130px;
    display: flex;
