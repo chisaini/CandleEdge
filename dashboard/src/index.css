@@ -1,6 +1,7 @@
 /* Main top bar */
 
 .Topbar-container {
+   position: sticky;
    display: flex;
     height: 80px;
     width: 100%;
@@ -46,6 +47,16 @@
    margin: 0;
    color: #FE7743;
 
+}
+.dashboard-container{
+   display: flex;
+}
+.watchlist-container{
+   position: sticky;
+   height: 100vh;
+   width: 480px;
+   border-right: 1px solid #EFEEEA;
+   
 }
 
 .menu-container{

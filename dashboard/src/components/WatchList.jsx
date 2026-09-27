@@ -1,6 +1,12 @@
 import React from "react";
 function WatchList() {
-  return <h1>WatchList</h1>;
+  return (
+    <>
+      <div className="watchlist-container">
+        <h1>watchlist</h1>
+      </div>
+    </>
+  );
 }
 
 export default WatchList;
