@@ -8,9 +8,9 @@ function Holdings() {
         <div className="order-table">
           <table className="holdings-table">
             <tr className="heading">
-              <th>Instrument</th>
+              <th>Name</th>
               <th>Qty.</th>
-              <th>Avg. cost</th>
+              <th>Avg. </th>
               <th>LTP</th>
               <th>Cur. val</th>
               <th>P&L</th>
@@ -33,7 +33,7 @@ function Holdings() {
                 {(curValue-stock.avg*stock.qty).toFixed(2)}
               </td>
               <td className={profClass}>{stock.net}</td>
-              <td className={profClass}>{stock.day}</td>
+              <td className={dayClass}>{stock.day}</td>
             </tr>
               );
 

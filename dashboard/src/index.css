@@ -1,5 +1,8 @@
 /* Main top bar */
-
+html {
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
 .Topbar-container {
    position: sticky;
     top: 0;
@@ -14,7 +17,7 @@
 
 /* NIFTY and SENSEX section */
 .indices-container {
-    width: 490px;
+    width: 480px;
     height:80px;
     border-right: 1px solid #EFEEEA;
     display: flex;
@@ -24,7 +27,7 @@
 
 .nifty,
 .sensex {
-    font-size: medium;
+    font-size: 12px;
     font-weight:500;
     margin: auto;
    display: flex;
@@ -77,14 +80,15 @@
 .menu-container{
    display: flex;
    align-items:center;
+   width: calc(100% - 480px);
    
 }
 .menu-items{
    display: flex;
-   margin-left: 340px;
+   margin-left: 420px;
    height: 40px;
    border-right: 2px solid #EFEEEA;
-   font-size: 15px;
+   font-size: 12px;
    
 }
 .menu-items p{
@@ -129,7 +133,7 @@
 
 .holdings{
    
-   margin: 70px 0px 0 30px;
+   margin: 70px 0px 100px 40px;
    
   width: 980px;
 }
@@ -144,7 +148,7 @@
    width: 100%;
    margin:0px 0px 100px 0px;
 
-   height: 420px;
+   height: auto;
 }
 .holdings table .heading{
    width: 100%;
@@ -154,12 +158,12 @@
 }
 .holdings table th{
    font-weight: 300;
-
+   padding: 5px 0px 5px 5px;
 }
 .holdings table tr{
    border-top: 1px solid #6d6c6c57;
    border-bottom: 1px solid #6d6c6c57;
-   padding: 10px 0px 10px 0px;
+   
    width: 100%;
    
    
@@ -170,6 +174,7 @@
     font-weight: 400;
     font-size: 12px;
     opacity : 0.9;
+    padding: 5px 0px 5px 5px;
 }
 .profit{
    color: rgb(36, 213, 5);
@@ -194,4 +199,50 @@
 }
 .summary-item  .green {
    color: rgb(47, 255, 68);
+}
+
+
+.positions{
+   
+   margin: 70px 0px 100px 40px;
+  width: 980px;
+}
+
+.positions .title{
+   font-size: 19px;
+   font-weight: 400;
+   opacity: 0.9;
+   margin-bottom:30px ;
+}
+.positions table{
+   width: 100%;
+   margin:0px 0px 100px 0px;
+
+   height: auto;
+}
+.positions table .heading{
+   width: 100%;
+   font-weight: 100;
+   opacity: 0.9;
+   
+}
+.positions table th{
+   font-weight: 300;
+   padding: 5px 0px 5px 5px;
+}
+.positions table tr{
+   border-top: 1px solid #6d6c6c57;
+   border-bottom: 1px solid #6d6c6c57;
+   
+   width: 100%;
+   
+   
+   font-size: 11px;
+   font-weight: 300;
+}
+.positions table td {
+    font-weight: 400;
+    font-size: 12px;
+    opacity : 0.9;
+    padding: 5px 0px 5px 5px;
 }
